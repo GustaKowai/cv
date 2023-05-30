@@ -4,6 +4,7 @@ function changeMode(){
 }
 function changeClasses(){
   btndrkmode.classList.toggle(drkmodeclass);
+  btndrkmode.classList.toggle(w3textgrey);
   body.classList.toggle(drkmodeclass);
   body.classList.toggle(w3greybody);
   footer.classList.toggle(drkmodeclass);

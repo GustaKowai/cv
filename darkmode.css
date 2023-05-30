@@ -6,7 +6,9 @@ button{
 .dark-mode{
   color: #cccccc;
 }
-
+button.dark-mode{
+  color: #ce915b;
+}
 body.dark-mode{
   background-color: #181818;
 }
