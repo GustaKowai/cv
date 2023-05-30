@@ -1,6 +1,5 @@
 function changeMode(){
   changeClasses();
-  // changeText();
 }
 function changeClasses(){
   btndrkmode.classList.toggle(drkmodeclass);
@@ -24,17 +23,6 @@ function changeClasses(){
   projetosbox.classList.toggle(drkmodeclass);
   projetosbox.classList.toggle(w3white);
   projetos.classList.toggle(w3textgrey);
-  // h1.classList.toggle(drkmodeclass);
-}
-function changeText(){
-  if(body.classList.contains(drkmodeclass)){
-    btndrkmode.innerHTML = 'Light mode'
-    h1.innerHTML = 'Dark mode ON'
-  }else{
-    btndrkmode.innerHTML = 'Dark mode'
-    h1.innerHTML = 'Light mode ON'
-  }
-  
 }
 
 const body =  document.getElementsByTagName('body')[0];
