@@ -1,7 +1,21 @@
-.darkmode{
-  color: #c3602d;
-  background-color: #1f1f1f;
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
-.darkmodeback{
+.dark-mode{
+  color: #cccccc;
+}
+
+body.dark-mode{
   background-color: #181818;
+}
+
+h2.dark-mode{
+  color: #569cd6;
+}
+div.dark-mode{
+  /* color: #9cdcfe; */
+  color:#ce915b;
+  background-color: #1f1f1f;
 }
